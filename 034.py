@@ -16,7 +16,7 @@ def solve(maxi = 28123):
     for i in range(3,maxi):
         suma = sum([factorial(int(digit)) for digit in str(i)])
         if suma == i:
-            print(i)
+            #print(i)
             curiousNum.append(i)
     return sum(curiousNum)
 
